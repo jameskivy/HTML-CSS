@@ -1,0 +1,38 @@
+.header {
+  height: 300px;
+  width: 100%;
+  background-color: yellow;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  margin: 0px;
+}
+
+.opacity {
+  background: black;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  opacity: 60%;
+}
+
+.text {
+  /* background: green; */
+  position: absolute;
+  z-index: 105;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 50px;
+  height: 100%;
+  line-height: 300px;
+}
+
+.img {
+  position: absolute;
+  top: -130px;
+  left: -50px;
+}
